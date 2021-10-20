@@ -40,7 +40,7 @@ for sample in ['sample_images/Cars_01',
 In the next step, OCR can be applied to ROI (number-plate detected region)
 
 * For this, any model can be used such as such as _KerasOCR, PyTesseract, EasyOCR_, etc.
-* I trained a simple [OCR](https://github.com/rish-hyun/anpr-tf-ssd_mobilenet_v2/blob/main/ocr_model.h5) model from scratch using _**MNIST**_ and _**Kaggle**_ datasets.
+* I trained a simple [OCR](https://github.com/rish-hyun/anpr-tf-ssd_mobilenet_v2/blob/main/ocr_model.h5) model from scratch using _**MNIST**_ and _**Kaggle**_ datasets of handwritten digits and alphabets.
 
 The code for training OCR can be found in [OCR.ipynb](https://github.com/rish-hyun/anpr-tf-ssd_mobilenet_v2/blob/main/OCR.ipynb)
 
